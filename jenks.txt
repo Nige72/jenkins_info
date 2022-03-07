@@ -40,3 +40,4 @@ until [[ -n "\$(cat  .jenkins/secrets/initialAdminPassword)" ]]; do
 done
 echo "initial admin password: \$(cat .jenkins/secrets/initialAdminPassword)"
 EOF
+#
